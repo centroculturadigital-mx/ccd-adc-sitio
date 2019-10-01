@@ -1,0 +1,57 @@
+* {
+    font-family: 'Lato', sans-serif !important;
+    color: #fff;
+    font-weight: 300;
+}
+
+body {
+    background-color: #555;
+}
+
+a {
+    text-decoration: none;
+}
+
+body > header {
+    height: 4rem;
+    background-color: #333;
+}
+body > header img {
+    width: 6rem;
+    height: 4rem;
+    object-fit: contain;
+    object-position: 0 50%;
+}
+main {
+    height: calc( 100vh - 4rem );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+
+.proyectos ul {
+    margin-top: 2rem;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.proyectos a {
+
+    padding: 2rem;
+    display: block;
+}
+
+a h2 {
+    font-weight: 400;
+}
+
+button {
+    background: #333;
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.2);
+    border: none;
+    padding: .5rem 1rem;
+    margin: 1rem 0;
+}
